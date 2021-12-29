@@ -1,25 +1,25 @@
 ## Software Testing
 
-- **Software testing** is the process of evaluating a software item to detect differences between the expected output and the actual output.
-- Testing assesses the quality of the product.
+- **Software testing** is the process of _evaluating_ a software item to detect differences between the _expected output_ and _the actual output_.
+- Testing assesses the _quality_ of the product.
 - It should be done during the development process.
-- Software testing is a verification and validation process.
+- Software testing is a _verification_ and _validation_ process.
 
 ## Test Driven Development
 
 - **Test-driven development (TDD)** is an evolutionary approach to development which combines _test-first development_ and _refactoring_.
-- It's one way to think _through your requirements_ or design before you write your functional code.
+- TDD is _a set of techniques_ that any software engineer can follow which encourages _simple designs_ and test suites that _inspire confidence._
+- TDD is one way to think _through your requirements_ or design before you write your functional code.
 - One of TDD's primary goals is to write _clean code that works._
-- To develop the habits you need to be successful with TDD (and software engineering in general) is to **write a failing test**. After that, write the code required to **make the test pass** (more on Red, Green, Refactor section).
+- To develop the habits you need to be successful with TDD (and software engineering in general) is to _write a failing test_. After that, write the code required to _make the test pass_ (more on Red, Green, Refactor section).
 - Writing a failing test first might seem _counter-intuitive_, _time-consuming_ and even _tedious_. But think of it this way:
-  - The **test** is the question you are asking.
-  - The **code** is the answer for that querstion.
-  - By having a **clear question**, you can always ensure that your code is working, because it _consistently_ gives you the same answers.
+  - The **test** is the _question_ you are asking.
+  - The **code** is the _answer_ for that querstion.
+  - By having a **clear question**, you can always ensure that your code is working, because it will _consistently_ give you the same answers.
 
 ## Test First Development
 
 - **Test-first development (TFD)** is where you write a test before you write enough production code to fulfill that test.
-- TFD is a slightly broader, less specific than TDD.
 
 ## Red, Green, Refactor
 
@@ -33,3 +33,4 @@
 - https://github.com/dwyl/learn-tdd
 - http://agiledata.org/essays/tdd.html
 - http://tutorials.jenkov.com/java-unit-testing/test-first-development.html
+- https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0ZXN0MTIzNHNpbTQ2NXxneDpiYTJmYWIwYTAyOGJiZmQ
