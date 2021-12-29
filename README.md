@@ -25,8 +25,15 @@
 
 - TDD follows a 3-step process:
   1.  **Red - Write a failing test:** Understand the user requirement well enough to write a test that you expect.
-  2.  **Green - Make the (failing) test pass:** Write only the code you need to make the previously failing test pass, while ensuring the existing test still pass.
-  3.  **Refactor - Refactor the code you wrote:** Take the time to tidy up the code you wrote to make it simpler for your future self or colleagues before you ship the code.
+  2.  **Green - Make the (failing) test pass:** Write _only_ the code/just enough code you need to make the test pass.
+  3.  **Refactor - Refactor the code you wrote:** Take the time to tidy up the code you wrote to make it simpler for your future self or colleagues before you ship the code. Refactor with confidence.
+
+## TDD Common Pitfalls/Mistakes
+
+- Another thing to remember when writing our preliminary tests (on the first step/Red phase) are to write **minimal test**. Developers tend to test too specific and too much.
+- The most common mistakes developers often make is testing _implementation details_ not _behavior_. For example:
+  - In a calculator app, if you want to calculate the square root of 9, it should not matter how the module does it, as long the end result is 3.
+  - In a simple mapping method for a new data structure, don't check the data structure itself because there's a possibility that the data structure itself will change and your test will fail.
 
 # References
 
@@ -34,3 +41,4 @@
 - http://agiledata.org/essays/tdd.html
 - http://tutorials.jenkov.com/java-unit-testing/test-first-development.html
 - https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0ZXN0MTIzNHNpbTQ2NXxneDpiYTJmYWIwYTAyOGJiZmQ
+- https://medium.com/javascript-scene/testing-software-what-is-tdd-459b2145405c
